@@ -1,0 +1,73 @@
+/* Weather.css */
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Original background color */
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Original input background color */
+  }
+  
+  .result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #ffffff; /* Original card background color */
+    color: #333; /* Original card text color */
+    width: 310px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .city-name {
+    color: #333; /* Original city name text color */
+  }
+  
+  .weather-state {
+    color: #555; /* Original weather state text color */
+  }
+  
+  .temp-max,
+  .temp-min {
+    font-weight: 700;
+  }
+  
+  .humidity {
+    color: #555; /* Original humidity text color */
+  }
+  
+  .credit {
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #000000; /* Original link text color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
